@@ -1,0 +1,17 @@
+{
+    "id": "sil_lahu",
+    "name": "Lahu (SIL)",
+    "license": "mit",
+    "languages": {
+        "lhu-Latn": {
+          "font": {
+            "family": "CharisSIL",
+            "source": "CharisSIL-R.ttf"
+          }
+        }
+    },
+    "description": "Lahu (Latin) Keyboard",
+    "related": {
+      "lahu": { "deprecates": true }
+    }
+}

@@ -1,33 +1,13 @@
-<html>
-
-<head>
-<meta http-equiv="Content-Language" content="en-us">
-<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-<title>SIL Lahu Keyboard Layout</title>
-<style>
-<!--
-h1 {
-	margin: 0px;
-	font-style: italic;
-	text-align: center;
-}
-
--->
-</style>
-</head>
-
-<body>
-
-<p align="center">
-<img border="0" src="Heres-Life-Logo2.gif" width="100" height="82" align="left">&nbsp;
-<font size="7">Lahu Unicode Keyboard Layout</font></p>
-<br>
-<hr>
-
+<?php
+  $pagename = 'SIL Lahu Keyboard Help';
+  $pagetitle = 'SIL Lahu Keyboard Help';
+  require_once('header.php');
+?>
 
 <div id="main" style="width: auto; margin: 0px 10px">
 <div id="maincontent" style="font-size: .95em; border-top: 2px solid silver; padding-left: 1.5em; padding-right: 1.5em; padding-top: 1em; padding-bottom: 2em">
   <div id="credits" style="text-align: center; font-style: italic; color: gray">
+  <img border="0" src="Heres-Life-Logo2.gif" width="100" height="82" align="left">
   Version 1.1<p>
   <p>&copy; 2010 by <a href= "http://www.hereslife.com">Here's Life Australia</a> a ministry of Campus Crusade for 
   Christ Australia</p><p style="text-align: left">&nbsp;</p>
@@ -144,25 +124,15 @@ h1 {
     </tr>
   </table>
 
-  <h2>Desktop Keyboard Layout</h2>
-  <h3>Unshifted</h3>
-  <img src="desktop-unshifted.png" alt="SIL Lahu desktop keyboard unshifted">
+  <div id='osk-container'>
+    <h2>Desktop Keyboard Layout</h2>
+    <div id='osk' data-states='default shift alt'></div>
+  </div>
 
-  <h3>Shifted</h3>
-  <img src="desktop-shifted.png" alt="SIL Lahu desktop keyboard shifted">
-
-  <h3>Alt</h3>
-  <img src="desktop-alt.png" alt="SIL Lahu desktop keyboard alt">
-
-  <h2>Phone/Tablet Keyboard Layout</h3>
-  <h3>Unshifted</h3>
-  <img src="mobile-unshifted.png" alt="SIL Lahu mobile keyboard unshifted">
-
-   <h3>Shifted</h3>
-   <img src="mobile-shifted.png" alt="SIL Lahu mobile keyboard shifted">
-
-   <h3>Numeric</h3>
-   <img src="mobile-numeric.png" alt="SIL Lahu mobile keyboard numeric">
+  <div id='osk-phone-container'>
+    <h2>Phone/Tablet Keyboard Layout</h2>
+    <div id='osk-phone' data-states='default shift numeric'></div>
+  </div>
 
   <h2>Fonts</h2>
   <p>Correct display of all Lahu letters requires you to install one of two fonts:
@@ -177,7 +147,3 @@ h1 {
 <a href="mailto:info@hereslife.com">
 <span style="color: #C0C0C0; text-decoration: underline">info@hereslife.com</span></a><br>&nbsp;</div>
 </div>
-
-</body>
-
-</html>
