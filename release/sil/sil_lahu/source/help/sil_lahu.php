@@ -1,6 +1,6 @@
 <?php
-  $pagename = 'SIL Lahu Keyboard Help';
-  $pagetitle = 'SIL Lahu Keyboard Help';
+  $pagename = 'Lahu (SIL) Keyboard Help';
+  $pagetitle = 'Lahu (SIL) Keyboard Help';
   require_once('header.php');
 ?>
 

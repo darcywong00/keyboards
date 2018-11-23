@@ -18,6 +18,7 @@ Supported Platforms
 -------------------
  * Windows
  * macOS
+ * Linux
  * Web
  * Mobile Web
  * iOS

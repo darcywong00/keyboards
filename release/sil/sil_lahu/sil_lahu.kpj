@@ -14,7 +14,7 @@
       <FileType>.kmn</FileType>
       <Details>
         <Name>Lahu (SIL)</Name>
-        <Copyright>© 2010, Bob Prouty</Copyright>
+        <Copyright>© 2010, 2018 Bob Prouty</Copyright>
         <Message>This will allow you to type Lahu on any computer with CharisSIL</Message>
       </Details>
     </File>
@@ -30,12 +30,11 @@
       <ID>id_67147165d24459e5214a6224c76061b7</ID>
       <Filename>sil_lahu.kps</Filename>
       <Filepath>source\sil_lahu.kps</Filepath>
-      <FileVersion>1.1</FileVersion>
+      <FileVersion></FileVersion>
       <FileType>.kps</FileType>
       <Details>
         <Name>Lahu (SIL)</Name>
-        <Copyright>© 2010 Bob Prouty</Copyright>
-        <Version>1.1</Version>
+        <Copyright>© 2010, 2018 Bob Prouty</Copyright>
       </Details>
     </File>
     <File>
@@ -119,27 +118,51 @@
       <ParentFileID>id_67147165d24459e5214a6224c76061b7</ParentFileID>
     </File>
     <File>
-      <ID>id_c0d78e0e7254a0604ee6eb3235a85457</ID>
-      <Filename>KeyboardAlt.gif</Filename>
-      <Filepath>source\welcome\KeyboardAlt.gif</Filepath>
+      <ID>id_912a78ce13641d21f814045bb6c1b7a7</ID>
+      <Filename>desktop-alt.png</Filename>
+      <Filepath>source\welcome\desktop-alt.png</Filepath>
       <FileVersion></FileVersion>
-      <FileType>.gif</FileType>
+      <FileType>.png</FileType>
       <ParentFileID>id_67147165d24459e5214a6224c76061b7</ParentFileID>
     </File>
     <File>
-      <ID>id_bd60eda14a4ac13e48b9b830da250210</ID>
-      <Filename>KeyboardNormal.gif</Filename>
-      <Filepath>source\welcome\KeyboardNormal.gif</Filepath>
+      <ID>id_9dfae21606c111a64bd6cf3632281f98</ID>
+      <Filename>desktop-shifted.png</Filename>
+      <Filepath>source\welcome\desktop-shifted.png</Filepath>
       <FileVersion></FileVersion>
-      <FileType>.gif</FileType>
+      <FileType>.png</FileType>
       <ParentFileID>id_67147165d24459e5214a6224c76061b7</ParentFileID>
     </File>
     <File>
-      <ID>id_afb08e7ee88ed2ba28bd5c45af73264a</ID>
-      <Filename>KeyboardShift.gif</Filename>
-      <Filepath>source\welcome\KeyboardShift.gif</Filepath>
+      <ID>id_1748342a7d00d157dc41ef59f3d2b168</ID>
+      <Filename>desktop-unshifted.png</Filename>
+      <Filepath>source\welcome\desktop-unshifted.png</Filepath>
       <FileVersion></FileVersion>
-      <FileType>.gif</FileType>
+      <FileType>.png</FileType>
+      <ParentFileID>id_67147165d24459e5214a6224c76061b7</ParentFileID>
+    </File>
+    <File>
+      <ID>id_d20cfd52e562a963951acdd766559116</ID>
+      <Filename>mobile-numeric.png</Filename>
+      <Filepath>source\welcome\mobile-numeric.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_67147165d24459e5214a6224c76061b7</ParentFileID>
+    </File>
+    <File>
+      <ID>id_cf50b28b0a4b8a5cca952c5eaf413f74</ID>
+      <Filename>mobile-shifted.png</Filename>
+      <Filepath>source\welcome\mobile-shifted.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_67147165d24459e5214a6224c76061b7</ParentFileID>
+    </File>
+    <File>
+      <ID>id_86b1742d933ef261cf98102c8d496e09</ID>
+      <Filename>mobile-unshifted.png</Filename>
+      <Filepath>source\welcome\mobile-unshifted.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
       <ParentFileID>id_67147165d24459e5214a6224c76061b7</ParentFileID>
     </File>
     <File>

@@ -1,7 +1,7 @@
 ﻿c You need to use CharisSIL for this to work,
 store(&VERSION) '9.0'
 store(&NAME) 'Lahu (SIL)'
-store(&COPYRIGHT) '© 2010, Bob Prouty'
+store(&COPYRIGHT) '© 2010, 2018 Bob Prouty'
 store(&MESSAGE) 'This will allow you to type Lahu on any computer with CharisSIL'
 store(&BITMAP) 'sil_lahu.ico'
 store(&VISUALKEYBOARD) 'sil_lahu.kvks'

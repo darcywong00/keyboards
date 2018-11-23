@@ -16,9 +16,9 @@
     <Items/>
   </StartMenu>
   <Info>
-    <Version URL="">1.1</Version>
+    <Version URL=""></Version>
     <Name URL="">Lahu (SIL)</Name>
-    <Copyright URL="">© 2010 Bob Prouty</Copyright>
+    <Copyright URL="">© 2010, 2018 Bob Prouty</Copyright>
     <Author URL="">Bob Prouty</Author>
   </Info>
   <Files>
@@ -83,22 +83,40 @@
       <FileType>.gif</FileType>
     </File>
     <File>
-      <Name>welcome\KeyboardAlt.gif</Name>
-      <Description>File KeyboardAlt.gif</Description>
+      <Name>welcome\desktop-alt.png</Name>
+      <Description>File desktop-alt.png</Description>
       <CopyLocation>0</CopyLocation>
-      <FileType>.gif</FileType>
+      <FileType>.png</FileType>
     </File>
     <File>
-      <Name>welcome\KeyboardNormal.gif</Name>
-      <Description>File KeyboardNormal.gif</Description>
+      <Name>welcome\desktop-shifted.png</Name>
+      <Description>File desktop-shifted.png</Description>
       <CopyLocation>0</CopyLocation>
-      <FileType>.gif</FileType>
+      <FileType>.png</FileType>
     </File>
     <File>
-      <Name>welcome\KeyboardShift.gif</Name>
-      <Description>File KeyboardShift.gif</Description>
+      <Name>welcome\desktop-unshifted.png</Name>
+      <Description>File desktop-unshifted.png</Description>
       <CopyLocation>0</CopyLocation>
-      <FileType>.gif</FileType>
+      <FileType>.png</FileType>
+    </File>
+    <File>
+      <Name>welcome\mobile-numeric.png</Name>
+      <Description>File mobile-numeric.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+    <File>
+      <Name>welcome\mobile-shifted.png</Name>
+      <Description>File mobile-shifted.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+    <File>
+      <Name>welcome\mobile-unshifted.png</Name>
+      <Description>File mobile-unshifted.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
     </File>
     <File>
       <Name>welcome\welcome.htm</Name>
