@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package>
+  <System>
+    <KeymanDeveloperVersion>11.0.1306.0</KeymanDeveloperVersion>
+    <FileVersion>7.0</FileVersion>
+  </System>
+  <Options>
+    <ExecuteProgram></ExecuteProgram>
+    <MSIFileName></MSIFileName>
+    <MSIOptions></MSIOptions>
+  </Options>
+  <StartMenu>
+    <Folder></Folder>
+    <Items/>
+  </StartMenu>
+  <Info>
+    <Version URL="">1.0</Version>
+    <Name URL="">Khamte Uni 2.6</Name>
+    <Copyright URL="">SIL 2014, All rights reserved</Copyright>
+  </Info>
+  <Files>
+    <File>
+      <Name>..\build\khamti_uni.kmx</Name>
+      <Description>Keyboard Khamte Uni 2.6</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kmx</FileType>
+    </File>
+    <File>
+      <Name>..\fonts\FONTLOG.txt</Name>
+      <Description>File FONTLOG.txt</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.txt</FileType>
+    </File>
+    <File>
+      <Name>..\fonts\OFL.txt</Name>
+      <Description>File OFL.txt</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.txt</FileType>
+    </File>
+    <File>
+      <Name>..\fonts\OFL-FAQ.txt</Name>
+      <Description>File OFL-FAQ.txt</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.txt</FileType>
+    </File>
+    <File>
+      <Name>..\fonts\README.txt</Name>
+      <Description>File README.txt</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.txt</FileType>
+    </File>
+    <File>
+      <Name>..\fonts\khamti\NamKio-Bold.ttf</Name>
+      <Description>Font Namkio Khamti Bold</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.ttf</FileType>
+    </File>
+    <File>
+      <Name>..\fonts\khamti\NamKioBook-Bold.ttf</Name>
+      <Description>Font Namkio Khamti Bold</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.ttf</FileType>
+    </File>
+    <File>
+      <Name>..\fonts\khamti\NamKioBook-Regular.ttf</Name>
+      <Description>Font Namkio Khamti</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.ttf</FileType>
+    </File>
+    <File>
+      <Name>..\fonts\khamti\NamKio-Regular.ttf</Name>
+      <Description>Font Namkio Khamti</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.ttf</FileType>
+    </File>
+  </Files>
+  <Keyboards>
+    <Keyboard>
+      <Name>Khamte Uni 2.6</Name>
+      <ID>khamti_uni</ID>
+      <Version>1.0</Version>
+      <OSKFont>..\fonts\khamti\NamKio-Regular.ttf</OSKFont>
+      <DisplayFont>..\fonts\khamti\NamKio-Regular.ttf</DisplayFont>
+      <Languages>
+        <Language ID="kht-Mymr">Khamti (Myanmar)</Language>
+      </Languages>
+    </Keyboard>
+  </Keyboards>
+  <Strings/>
+</Package>
