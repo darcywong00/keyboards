@@ -1,9 +1,7 @@
 Old Italic Basic keyboard
 ==============
 
-© 2019 SIL International
-
-Version 1.0
+© 2019-2022 SIL International
 
 Description
 -----------
@@ -27,7 +25,3 @@ Supported Platforms
  * Mobile devices
  * Desktop devices
  * Tablet devices
-
-To do
------
-* Fix up version number in welcome.htm (should have been version 1.0)

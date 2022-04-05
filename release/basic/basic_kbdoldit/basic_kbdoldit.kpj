@@ -5,17 +5,18 @@
     <CompilerWarningsAsErrors>True</CompilerWarningsAsErrors>
     <WarnDeprecatedCode>True</WarnDeprecatedCode>
     <CheckFilenameConventions>True</CheckFilenameConventions>
+    <ProjectType>keyboard</ProjectType>
   </Options>
   <Files>
     <File>
       <ID>id_64dbf7032e77a32af2c44c9b304dad1b</ID>
       <Filename>basic_kbdoldit.kmn</Filename>
       <Filepath>source\basic_kbdoldit.kmn</Filepath>
-      <FileVersion>1.0</FileVersion>
+      <FileVersion>1.1</FileVersion>
       <FileType>.kmn</FileType>
       <Details>
         <Name>Old Italic Basic</Name>
-        <Copyright>© 2019 SIL International</Copyright>
+        <Copyright>© 2019-2022 SIL International</Copyright>
       </Details>
     </File>
     <File>
