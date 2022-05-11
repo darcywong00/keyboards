@@ -16,7 +16,7 @@
   </StartMenu>
   <Info>
     <Name URL="">Mi’gmaq</Name>
-    <Copyright URL="">(c) 2008-2021 FirstVoices, SIL International. Portions (c) 2006 Chris Harvey</Copyright>
+    <Copyright URL="">(c) 2008-2022 FirstVoices, SIL International. Portions (c) 2006 Chris Harvey</Copyright>
     <Version URL=""></Version>
     <Author URL=""></Author>
     <WebSite URL="https://www.firstvoices.com">https://www.firstvoices.com</WebSite>
@@ -129,7 +129,7 @@
     <Keyboard>
       <Name>Mi'gmawi'simg / Mi'kmawi'simk</Name>
       <ID>fv_migmaq</ID>
-      <Version></Version>
+      <Version>9.1.2</Version>
       <Languages>
         <Language ID="mic-Latn">Mi'kmaq (Latin)</Language>
       </Languages>
