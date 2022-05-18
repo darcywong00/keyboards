@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package>
+  <System>
+    <KeymanDeveloperVersion>15.0.246.0</KeymanDeveloperVersion>
+    <FileVersion>7.0</FileVersion>
+  </System>
+  <Options>
+    <ExecuteProgram></ExecuteProgram>
+    <MSIFileName></MSIFileName>
+    <MSIOptions></MSIOptions>
+  </Options>
+  <StartMenu>
+    <Folder></Folder>
+    <Items/>
+  </StartMenu>
+  <Info>
+    <Version URL="">1.0</Version>
+    <Name URL="">Khuen Tham Unicode 0.3.1</Name>
+  </Info>
+  <Files>
+    <File>
+      <Name>..\build\tkhun.kmx</Name>
+      <Description>Keyboard Khuen Tham Unicode 0.3.1</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kmx</FileType>
+    </File>
+    <File>
+      <Name>NotoSansTaiTham-VariableFont_wght.ttf</Name>
+      <Description>Font Noto Sans Tai Tham Regular</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.ttf</FileType>
+    </File>
+  </Files>
+  <Keyboards>
+    <Keyboard>
+      <Name>Khuen Tham Unicode 0.3.1</Name>
+      <ID>tkhun</ID>
+      <Version>1.0</Version>
+      <Languages>
+        <Language ID="khf">Khuen</Language>
+      </Languages>
+    </Keyboard>
+  </Keyboards>
+  <Strings/>
+</Package>
