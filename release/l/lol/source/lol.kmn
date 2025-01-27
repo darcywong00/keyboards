@@ -1,0 +1,36 @@
+﻿c lol generated from template at 2025-01-24 13:47:58
+c with name "LOL Workshop"
+store(&VERSION) '10.0'
+store(&NAME) 'LOL Workshop'
+store(&COPYRIGHT) 'Copyright © Darcy Wong'
+store(&KEYBOARDVERSION) '1.0'
+store(&TARGETS) 'any'
+store(&BITMAP) 'lol.ico'
+store(&VISUALKEYBOARD) 'lol.kvks'
+store(&LAYOUTFILE) 'lol.keyman-touch-layout'
+
+begin Unicode > use(main)
+
+group(main) using keys
+
++ [K_L] > 'ລ'       c U+0EA5 Lao Letter Lo Loot
+
+c ~ Deadkeys
++ '~' > dk(tilde)
+dk(tilde) + 'k' > 'ກ'  c U+0E81 Lao Letter Ko
+dk(tilde) + '~' > '~'  c tilde
+
+c Sequences
+'letterb' + 'o' > 'ບ' c U+0E9A Lao Letter Bo
+
+c Modifier Keys
++ [SHIFT K_S] > 'ສ' c U+0EAA Lao Letter So Sung
++ [RALT K_L] > 'l'  c small letter l
+
+
+c Rotas
+'j' + 'j' > 'ຈ'  c U+0E88 Lao Letter Co
+'ຈ' + 'j' > 'ຊ' c U+0E90 Lao Letter So Tam
+'ຊ' + 'j' > 'ຍ' c U+0E8D Lao Letter Nyo
+'ຍ' + 'j' > 'j' c small letter j
+
