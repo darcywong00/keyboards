@@ -1,6 +1,6 @@
 ﻿c lol generated from template at 2025-01-24 13:47:58
 c with name "LOL Workshop"
-store(&VERSION) '10.0'
+store(&VERSION) '17.0' c Version 17.0 needed for gestures
 store(&NAME) 'LOL Workshop'
 store(&COPYRIGHT) 'Copyright © Darcy Wong'
 store(&KEYBOARDVERSION) '1.0'
@@ -33,4 +33,3 @@ c Rotas
 'ຈ' + 'j' > 'ຊ' c U+0E90 Lao Letter So Tam
 'ຊ' + 'j' > 'ຍ' c U+0E8D Lao Letter Nyo
 'ຍ' + 'j' > 'j' c small letter j
-

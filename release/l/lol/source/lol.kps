@@ -60,12 +60,20 @@
       <CopyLocation>0</CopyLocation>
       <FileType>.md</FileType>
     </File>
+    <File>
+      <Name>..\..\..\shared\fonts\laoo\saysettha\Saysettha MX.ttf</Name>
+      <Description>Font Saysettha MX</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.ttf</FileType>
+    </File>
   </Files>
   <Keyboards>
     <Keyboard>
       <Name>LOL Workshop</Name>
       <ID>lol</ID>
       <Version>1.0</Version>
+      <OSKFont>..\..\..\shared\fonts\laoo\saysettha\Saysettha MX.ttf</OSKFont>
+      <DisplayFont>..\..\..\shared\fonts\laoo\saysettha\Saysettha MX.ttf</DisplayFont>
       <Languages>
         <Language ID="lo">Lao</Language>
       </Languages>
