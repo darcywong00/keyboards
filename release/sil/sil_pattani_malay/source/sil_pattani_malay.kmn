@@ -1,0 +1,96 @@
+﻿c Pattani-Malay keyboard
+
+c AUTHOR      "Tim Eves"
+c BITMAPS      "pattani.png"
+store(&VERSION)    '10.0'
+store(&COPYRIGHT) 'Copyright © 2009-2025, SIL Global'
+store(&KEYBOARDVERSION) '1.0'
+store(&NAME) 'Pattani Malay (SIL)'
+c store(&LANGUAGE) 'x041E'
+
+store(key)          '`' "1234567890-=qwertyuiop[]\asdfghjkl;'zxcvbnm,./" \
+                    '~' '!@#$%^&*()_+QWERTYUIOP{}|ASDFGHJKL:"ZXCVBNM<>?'
+store(char)         U+02BC "ๅ/-ภถุึคตจขชๆไำพะัีรนยบลฃฟหกดเ้่าสวงผปแอิืทมใฝ" \
+                    U+0303 '+๑๒๓๔ู฿๕๖๗๘๙๐"ฎฑธํ๊ณฯญฐ,ฅฤฆฏโฌ็๋ษศซ.()ฉฮฺ์?ฒฬฦ'
+
+store(char-single)   U+02BC
+store(char-double)   U+0331
+
+store(slot0)        "ฺ"         c Composition class 9
+store(slot1)        U+0E3A  c Composition class 0, but must come after a phintu
+store(slot15)       U+0E34 U+0E35 U+0E36 U+0E37 U+0E47    c class 0 but come before slots4,5
+store(slot2)        U+0E38 U+0E39        c Composition class 103
+store(slot3)        U+0E48 U+0E49 U+0E4A U+0E4B     c Composition class 107
+store(slot4)        U+0331      c Composition class 220
+store(slot5)        U+0303      c Composition class 230
+store(&TARGETS) 'desktop'
+store(&WINDOWSLANGUAGES) 'x041E'
+store(&VISUALKEYBOARD) 'sil_pattani_malay.kvks'
+
+begin Unicode > use(main)
+
+group(main) using keys
+    c Standard one to one mapping
+    + any(key) > index(char,1)
+        c don't need normalise here because all outputs start with base char
+c    + [RALT K_P] > U+0E22 U+0331
+    + [RALT SHIFT K_P] > U+0E0D U+0331
+    + [RALT K_QUOTE] > U+0E07 U+0331
+    + [RALT K_COMMA] > U+0E21 U+0331
+    + [RALT K_O] > U+0E19 U+0331
+    + [RALT K_H] > U+0303
+    + [RALT K_J] > U+02BC
+    + [RALT K_3] > U+0331
+    + [CTRL SHIFT K_3] > U+0331
+    + [RALT K_D] > U+0E01 U+0E3A
+    + [RALT SHIFT K_COLON] > U+0E0B U+0E3A
+    + [RALT K_P] > U+0E22 U+0E3A
+    + [RALT K_I] > U+0E23 U+0E3A
+    match > use(normalise)
+
+group(normalise)
+    any(slot5) any(slot4) > context(2) context(1)
+    any(slot4) any(slot5) any(slot3) > context(3) context(1) context(2)
+    any(slot4) any(slot3) > context(2) context(1)
+    any(slot5) any(slot3) > context(2) context(1)
+    any(slot3) any(slot4) any(slot5) any(slot15) > context(4) context(1) context(2) context(3)
+    any(slot3) any(slot4) any(slot5) any(slot2) > context(4) context(1) context(2) context(3)
+    any(slot3) any(slot4) any(slot15) > context(3) context(1) context(2)
+    any(slot3) any(slot4) any(slot2) > context(3) context(1) context(2)
+    any(slot3) any(slot5) any(slot15) > context(3) context(1) context(2)
+    any(slot3) any(slot5) any(slot2) > context(3) context(1) context(2)
+    any(slot3) any(slot15) > context(2) context(1)
+    any(slot3) any(slot2) > context(2) context(1)
+    any(slot4) any(slot5) any(slot15) > context(3) context(1) context(2)
+    any(slot4) any(slot5) any(slot2) > context(3) context(1) context(2)
+    any(slot4) any(slot15) > context(2) context(1)
+    any(slot4) any(slot2) > context(2) context(1)
+    any(slot5) any(slot15) > context(2) context(1)
+    any(slot5) any(slot2) > context(2) context(1)
+    any(slot15) any(slot3) any(slot4) any(slot5) any(slot1) > context(5) context(1) context(2) context(3) context(4)
+    any(slot2) any(slot3) any(slot4) any(slot5) any(slot1) > context(5) context(1) context(2) context(3) context(4)
+    any(slot15) any(slot3) any(slot4) any(slot1) > context(4) context(1) context(2) context(3)
+    any(slot2) any(slot3) any(slot4) any(slot1) > context(4) context(1) context(2) context(3)
+    any(slot15) any(slot3) any(slot5) any(slot1) > context(4) context(1) context(2) context(3)
+    any(slot2) any(slot3) any(slot5) any(slot1) > context(4) context(1) context(2) context(3)
+    any(slot15) any(slot3) any(slot1) > context(3) context(1) context(2)
+    any(slot2) any(slot3) any(slot1) > context(3) context(1) context(2)
+    any(slot15) any(slot4) any(slot5) any(slot1) > context(4) context(1) context(2) context(3)
+    any(slot2) any(slot4) any(slot5) any(slot1) > context(4) context(1) context(2) context(3)
+    any(slot15) any(slot4) any(slot1) > context(3) context(1) context(2)
+    any(slot2) any(slot4) any(slot1) > context(3) context(1) context(2)
+    any(slot15) any(slot5) any(slot1) > context(3) context(1) context(2)
+    any(slot2) any(slot5) any(slot1) > context(3) context(1) context(2)
+    any(slot15) any(slot1) > context(2) context(1)
+    any(slot2) any(slot1) > context(2) context(1)
+    any(slot3) any(slot4) any(slot5) any(slot1) > context(4) context(1) context(2) context(3)
+    any(slot3) any(slot4) any(slot1) > context(3) context(1) context(2)
+    any(slot3) any(slot5) any(slot1) > context(3) context(1) context(2)
+    any(slot3) any(slot1) > context(2) context(1)
+    any(slot4) any(slot5) any(slot1) > context(3) context(1) context(2)
+    any(slot4) any(slot1) > context(2) context(1)
+    any(slot5) any(slot1) > context(2) context(1)
+
+
+
+
