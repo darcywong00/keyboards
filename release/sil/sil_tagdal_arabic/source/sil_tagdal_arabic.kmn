@@ -7,7 +7,7 @@ c
 c 
 c Run by: SIL Global
 
-store(&Version) "10.0"
+store(&Version) "15.0"
 store(&NAME) 'Tagdal (Arabic)'
 store(&TARGETS) 'any'
 store(&VISUALKEYBOARD) 'sil_tagdal_arabic.kvks'
@@ -15,6 +15,7 @@ store(&BITMAP) 'sil_tagdal_arabic.ico'
 store(&LAYOUTFILE) 'sil_tagdal_arabic.keyman-touch-layout'
 store(&COPYRIGHT) 'Copyright © SIL Global'
 store(&KEYBOARDVERSION) '1.0'
+store(&KMW_RTL) '1'
 
 begin Unicode > use(main)
 
