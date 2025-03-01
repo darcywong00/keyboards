@@ -43,12 +43,6 @@
       <FileType>.kvk</FileType>
     </File>
     <File>
-      <Name>welcome.htm</Name>
-      <Description></Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.htm</FileType>
-    </File>
-    <File>
       <Name>readme.htm</Name>
       <Description></Description>
       <CopyLocation>0</CopyLocation>
@@ -60,6 +54,24 @@
       <CopyLocation>0</CopyLocation>
       <FileType>.md</FileType>
     </File>
+    <File>
+      <Name>welcome\desktop_default.png</Name>
+      <Description>File desktop_default.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+    <File>
+      <Name>welcome\desktop_shift.png</Name>
+      <Description>File desktop_shift.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+    <File>
+      <Name>welcome\welcome.htm</Name>
+      <Description>File welcome.htm</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.htm</FileType>
+    </File>
   </Files>
   <Keyboards>
     <Keyboard>
@@ -67,7 +79,7 @@
       <ID>sil_tagdal_arabic</ID>
       <Version>1.0</Version>
       <Languages>
-        <Language ID="tda-Arab">Tagdal</Language>
+        <Language ID="tda-Arab">Tagdal (Arab)</Language>
       </Languages>
     </Keyboard>
   </Keyboards>
