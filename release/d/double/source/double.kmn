@@ -1,0 +1,29 @@
+﻿c double generated from template at 2026-02-23 10:15:17
+c with name "double"
+store(&VERSION) '10.0'
+store(&NAME) 'double'
+store(&COPYRIGHT) 'Copyright © Darcy Wong'
+store(&KEYBOARDVERSION) '1.0'
+store(&TARGETS) 'any'
+store(&BITMAP) 'double.ico'
+store(&VISUALKEYBOARD) 'double.kvks'
+store(&LAYOUTFILE) 'double.keyman-touch-layout'
+
+begin Unicode > use(main)
+
+group(main) using keys
+
+store(cons) "bcdfghjklmnpqrstvwxyz"
+store(bk) [K_BKSP]
+
+c double backspace? a + any consonant
+'a' + 'b' > nul
+
+
+c + "t" > outs(bk) outs(bk) c this doesn't work: [K_BKSP] [K_BKSP]
+
+c "a" any(cons) + [K_BKSP] > nul
+
+c "contex" + "t" > "cont"
+c "contex" + "t" > context(1) context(2) context(3) context(4)
+
